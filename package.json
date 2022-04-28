@@ -6,10 +6,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint",
-    "start:dev": "APP_ENV='dev' next dev -p 8090",
-    "start:test": "APP_ENV='test'  next start -p 8091",
-    "start:prod": "APP_ENV='prod' next start -p 8092"
+    "lint": "next lint"
   },
   "dependencies": {
     "antd": "^4.19.5",
