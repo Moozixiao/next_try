@@ -1,0 +1,11 @@
+@import "../../public/css/variable.scss";
+
+.headerWrap {
+  color: $primary-color;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  background: $primary-color;
+  color: #fff;
+  padding: 0 $md;
+}

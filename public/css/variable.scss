@@ -1,0 +1,18 @@
+//主要色标
+$primary-color: #296df1;
+$warning-color: #faad14; //警告
+$success-color: #23d688; //成功
+$danger-color: #ff4d4f; //失败
+
+// :export {
+//   primaryColor: $primary-color;
+// }
+
+//长度单位
+$n: 8px;
+$xs: $n * 0.5;
+$sm: $n;
+$md: $n * 2;
+$lg: $n * 3;
+$xl: $n * 4;
+$xxl: $n * 6;
