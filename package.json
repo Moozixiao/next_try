@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "antd": "^4.19.5",
+    "gh-pages": "^3.2.3",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dnd": "^16.0.1",
